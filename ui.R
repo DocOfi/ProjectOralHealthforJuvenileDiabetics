@@ -1,36 +1,34 @@
-library(shiny)
-
+library(rCharts)
 shinyUI(fluidPage(
-  title = "Misclassified Data Points",
-  plotOutput("plot1", click = "plot_click"),
-  verbatimTextOutput("info"),
-  
-  fluidRow(
-    column(width = 12,
-           p(span("To gain an insight on the performance of the 
-                  different algorithms available in the caret package, 
-                  we compared the Misclassified data points of different
-                  classifiers as it predicted on a testing set (50%) of 
-                  the famous (Fisher's or Anderson's) iris data set. The
-                  datapoints that were misclassified are revealed by a 
-                  darker shade of", style = "color:red"), span("blue.", 
-                                                               style = "color:dark blue"), span("The species to which
-                                                                                                the datapoint belongs is designated by its shape. 
-                                                                                                Identifying the datapoint visually can be challenging, 
-                                                                                                but by using this App and clicking on the datapoint 
-                                                                                                with the crosshair, it becomes easy. The full article 
-                                                                                                can be found at ", style = "color:red"), tags$a(href=
-                                                                                                                                                  "http://www.rpubs.com/DocOfi/170100", "Comparing Algorithms"),
-             span("A companion guide to this App can be found at", style=
-                    "color:red"), tags$a(href="http:www.rpubs.com/DocOfi/170080",
-                                         "Comparing Algorithm - Guide to the App")
-           )),
-    
-    fluidRow(
-      column(width = 4, offset = 2,
-             selectInput("varName", label = h3("Choose algorithm below"), 
-                         choices = list("Random Forest", "Stochastic Gradient Boosting",
-                                        "Naive Bayes", "Neural Network", "Penalized Multinomial Regression", "Support Vector Machine"), selected = "Random Forest"))
+  titlePanel(
+    "Oral Health of Children and Youth with Type 1 Diabetes"
+  ),
+  sidebarLayout(
+    sidebarPanel(
+      p(span("DMFT", style = "color:blue"), "stands for Decayed, 
+        Missing, and Filled Teeth. It is an index of oral health 
+        that allows for comparison across different populations or 
+        age groups. A simple count of the number of D, M, and F teeth are 
+        added to come up with the DMFT score."),
+      selectInput("varName", label = h3("Compare"), 
+                  choices = list("no. of decayed teeth", "no. of missing teeth", "no. of filled teeth", "total dmft"), selected = 
+                                 "no. of decayed teeth"),
+      img(src="pohjd.png", height = 50, width = 100),
+      p(span("Please take note of the range of the y-axis of each 
+             plot. The height of the bars may look the same but the 
+             upper limit is different for each plot", style = 
+             "color:red"))
+    ),
+    mainPanel(
+      h3('You selected'),
+      verbatimTextOutput('ovarName'),
+      tabsetPanel(type = "tabs", 
+                  tabPanel("Plot", plotOutput("plot")), 
+                  tabPanel("Summary", verbatimTextOutput("summary")), 
+                  tabPanel("Table", tableOutput("table")),
+      plotOutput('plot')
     )
-    
-    )))
+  )
+  )
+))
+
