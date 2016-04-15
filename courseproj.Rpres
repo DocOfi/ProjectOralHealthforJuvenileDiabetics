@@ -1,0 +1,91 @@
+Oral Health and Diabetes
+========================================================
+author: DocOfi
+date: April 27, 2016
+transition: rotate
+
+<small> 
+Coordinator  
+Project Oral Health 
+for Juvenile Diabetics
+</small>
+
+
+Diabetes and Oral Health share certain Commonalities
+========================================================
+incremental: true
+
+- Sugar intake largely determines disease in oral health and diabetes.
+- Success in improving oral health and blood sugar levels are largely dependent on the patient's knowledge and motivation.
+- Both require considerable amount of money.  Diabetes requires frequent monitoring  of blood sugar levels, daily injections of insulin while dental treatment is not subsidize by the medical insurance.
+- Increasing awareness and educating the patient has been shown to be highly effective in improving oral health and diabetes
+
+Patient Profile
+========================================================
+Patients in these study were recruited from the Philippine General Hospital, Institute for Studies in Diabetes Foundation, Inc., and the Juvenile Diabetes Foundation Philippines, Inc. Only about half (34/65 or 47.9%) of the participants monitored their blood sugar at home at least once a day.
+
+DMFT index among Type 1 Diabetics
+========================================================
+
+The DMFT index is a simple count of the number of decayed, missing and filled teeth in an individual averaged over a population or age group.  It is a widely accepted method for comparing prevalence of tooth decay between populations
+```{r, echo=FALSE}
+pohjd <- read.csv("pohjd.csv")
+pohjd$AgeGrp <- as.factor(pohjd$AgeGrp)
+print(pohjd)
+```
+
+Decayed and Missing teeth per age group
+========================================================
+
+```{r, echo=FALSE}
+barplot(pohjd$Decayed, names.arg = c("1-5", "6-10", "11-15", "16-20", "21-25", "26-30"), xlab = "Age Group", ylab = "No. of Decayed Teeth", main = "Decayed Teeth", col = rainbow(20), cex.axis = 1, cex.names = 1) 
+```
+
+***
+
+```{r, echo=FALSE}
+barplot(pohjd$Missing, names.arg = c("1-5", "6-10", "11-15", "16-20", "21-25", "26-30"), xlab = "Age Group", ylab = "No. of Decayed Teeth", main = "Missing Teeth", col = rainbow(20), cex.axis = 1, cex.names = 1) 
+```
+
+FIlled teeth and total DMFT per age group
+========================================================
+
+```{r, echo=FALSE}
+barplot(pohjd$Filled, names.arg = c("1-5", "6-10", "11-15", "16-20", "21-25", "26-30"), xlab = "Age Group", ylab = "No. of Filled Teeth", main = "Filled Teeth", col = rainbow(20), cex.axis = 1, cex.names = 1) 
+```
+
+***
+
+```{r, echo=FALSE}
+barplot(pohjd$DMFT, names.arg = c("1-5", "6-10", "11-15", "16-20", "21-25", "26-30"), xlab = "Age Group", ylab = "Total DMFT", main = "DMFT", col = rainbow(20), cex.axis = 1, cex.names = 1) 
+```
+
+
+Oral Health = Systemic Health
+========================================================
+
+![alt text](osh.png)
+
+***
+
+A common risk factor approach to improving oral and systemic health among patients with diabetes may offer a better solution.
+
+References and Links
+========================================================
+
+[A Survey on the Barriers to Dental Care among Individuals with Type 1 Diabetes]( http://74.81.82.220/index.php/pjim/436-phil-journal-of-internal-medicine-vol51-no2)
+
+![alt text](logopohjd.png)
+
+[Project Oral Health for juvenile Diabetics](www.projectoralhealth.org)
+
+[Oral Health Status of Children Attending a Summer Camp for Diabetic Children](http://asean-endocrinejournal.org/index.php/JAFES/article/view/231/657)
+
+[Diabetes and Oral Heath](http://www.slideshare.net/pinoydental/dental-comics-by-dr-ed-ofilada)
+
+
+
+
+
+
+

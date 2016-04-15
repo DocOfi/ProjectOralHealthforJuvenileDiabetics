@@ -1,0 +1,9 @@
+---
+title: "README"
+author: "DocOfi"
+date: "April 15, 2016"
+output: html_document
+---
+
+This repository contains the files from Project Oral Health for Juvenile Diabetics. An effort to provide for the needs of families with type 1 diabetic children. 
+
