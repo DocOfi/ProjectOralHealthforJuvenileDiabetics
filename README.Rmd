@@ -3,11 +3,15 @@ title: "POHJD"
 author: "DocOfi"
 date: "April 15, 2016"
 output: 
-        html_document:
-        keep_md: yes
+        github_document:
+        toc: true
 ---
 
-![](logopohjd.png)
+```{r logo4, echo=FALSE, fig.retina= 1, out.extra='style="background-color: #9ecff7; padding:10px; display: inline-block;"'}
+library(knitr)
+library(png)
+include_graphics("logopohjd.png")
+```
 
 This repository contains the data from Project Oral Health for Juvenile Diabetics or POHJD. POHJD was an effort to provide for the dental needs of children with type 1 diabetes. Despite the offer of free dental treatment, patient participation was low. Only later on did it gain some momentum when it grew to provide insulin, blood glucose meters, and glucose monitoring strips. This got the parents of the children interested but what made the children receive dental care with enthusiasm was the promise of a free toy, clothes, or shoes at the end of the treatment session. Unfortuantely, the free medicine, goodies for the children and funding for the project was exhausted by 2015 
 
