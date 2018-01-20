@@ -53,3 +53,44 @@ Please take into consideration that this is my first foray into a collaborative 
 [Oral Health Status of Children Attending a Summer Camp for Diabetes Children](http://asean-endocrinejournal.org/index.php/JAFES/article/view/231/657)
 
 [Project Oral Health for Juvenile Diabetics](http://www.projectoralhealth.org/)
+
+This repository contains the following:
+
+- ReadMe R markdown document
+- ReadMe markdown document
+- courseproj-rpubs.html
+- courseproj.html
+- courseproj.md
+- courseproj.Rpres
+- logopohjd.png
+- mychart1.html
+- mychart2.html
+- osh.png 
+- pohjd.csv
+- ui.R 
+- server.R 
+
+The README markdown document is displayed by default by GitHub whenever you visit a GitHub repository. The document you are reading now is the README.md file. It contains information about the content of this repo.
+
+The README R markdown document is the R markdown version of the ReadME.md document.
+
+The [courseproj-rpubs.htm](http://rpubs.com/DocOfi/169246) is a html presentation using RStudios Rpres format. You can view the presentation by clicking on the link.
+
+The [courseproj.html](https://htmlpreview.github.io/?https://github.com/DocOfi/ProjectOralHealthforJuvenileDiabetics/courseproj.html) document is an html version of the [courseproj-rpubs.htm](http://rpubs.com/DocOfi/169246) presentation.
+
+The courseproj.md document is markdown version of the [courseproj-rpubs.htm](http://rpubs.com/DocOfi/169246) presentation.
+
+The courseproj.Rpres document is R presenetation file that created the [courseproj-rpubs.htm](http://rpubs.com/DocOfi/169246) presentation.
+
+The logopohjd.png and osh.png are image files dislpayed in the README.md document in png format.
+
+The [mychart1.html](https://htmlpreview.github.io/?https://github.com/DocOfi/ProjectOralHealthforJuvenileDiabetics/mychart1.html) and the [mychart2.html](https://htmlpreview.github.io/?https://github.com/DocOfi/ProjectOralHealthforJuvenileDiabetics/mychart2.html) document are interactive plots which you can view by clicking on the link.
+
+The pohjd.csv file is the dataset in csv format that I'm trying to clean for purposes of demonstartion.
+
+The server.R and ui.r file contains the code for creating the shiny presentation which you can view by clicking on this link [POHJD Shiny Presentation](https://docofi.shinyapps.io/ShinyApp15/)
+
+
+
+
+
