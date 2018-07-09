@@ -1,0 +1,88 @@
+.title-slide {
+  background-color: #FFFFFF; /* #EDE0CF; ; #CA9F9D*/
+  /* background-image:url(http://goo.gl/EpXln); */
+}
+
+/* targets font, color, space below title in title.slide */
+.title-slide hgroup > h1{
+ font-family: 'Oswald', 'Helvetica', sanserif;
+ color: #990033;
+ margin-bottom: 1em;
+}
+
+/* color of author and job on title slide - maroon */
+.title-slide hgroup > p {
+  color: firebrick;  /* ; #EF5150*/
+}
+
+/* color outside of slide - pink */
+body {
+  background-color: #FF33FF;
+}
+
+/* color of subtitle on title slide - maroon */
+.title-slide hgroup > h2 {
+  position: relative;
+  margin: -30px -50px 30px -50px;
+  padding: 15px 50px;
+  font-size: 2.5em;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  background-color: #c11825;
+  font-family: "Crimson Text";
+  color: #ADD8E6;
+  box-shadow: inset 0 -2px 2px rgba(0,0,0,.2);
+}
+
+/* putting a banner on  h2 header on all slide - maroon */
+
+#slide-21 hgroup > h2,
+#slide-20 hgroup > h2,
+#slide-19 hgroup > h2,
+#slide-17 hgroup > h2 {
+  font-family: "Crimson Text";
+  text-align: justify;
+  font-size: 45px;
+  line-height: 1.2em;
+  color: #6A5ACD;
+}
+
+#slide-3 hgroup > h2 {
+  font-family: "Crimson Text";
+  text-align: justify;
+  font-size: 45px;
+  line-height: 1.2em;
+  color: #7FFFD4;
+}
+
+.multicol > article > div > p{
+  font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 60px;
+  color: blue;
+  text-align: center;
+  line-height: 1.4
+}
+
+.centeredtext {
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 2.3em;
+  line-height: 1.2;
+}
+
+.centeredtext > hgroup > h2{
+  font-size: 2.3em;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  font-family: "Georgia";
+  color: #7B68EE;
+}
+
+.thank-you-slide > hgroup > h2{
+	color: #003036;
+}
+
+.thank-you-slide > article > p{
+	color: #FFFFFF;
+}	
