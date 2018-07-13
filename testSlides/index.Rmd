@@ -327,13 +327,13 @@ A common risk factor approach to improving oral and systemic health among patien
 *** {class: active, img: "assets/img/wddPGH.jpg"}
 World Diabetes Day - Focus on Oral Health 2012 at the UP-PGH
 
-*** {img: "assets/img/wddSLMc.jpg"}
+*** {img: "assets/img/wddSLMC.jpg"}
 World Diabetes Day - Focus on Oral Health 2014 at SLMC
 
 *** {img: "assets/img/wddSLMC2.jpg"}
 World Diabetes Day - Focus on Mom 2014 at SLMC
 
-*** {img: "assets/img/slide1.JPG"}
+*** {img: "assets/img/Slide1.JPG"}
 Educational Material on Oral Health Care for Diabetics
 
 *** {img: "assets/img/davao.jpg"}
