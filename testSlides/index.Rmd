@@ -291,7 +291,7 @@ knitr::include_graphics("assets/img/high468.jpg")
 <br>
 
 ```{r, fig.retina=NULL, out.width='80%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("assets/img/gingivitis.jpg")
+knitr::include_graphics("assets/img/gingivitis.JPG")
 ```
 
 <span style="color:#CC79A7">...poor glycemic control predisposes to gum disease.</span>

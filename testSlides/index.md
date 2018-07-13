@@ -265,7 +265,7 @@ _A sub-group of the population tend to develop periodontitis early consistent wi
 
 <br>
 
-<img src="assets/img/gingivitis.jpg" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" width="80%" style="display: block; margin: auto;" />
+<img src="assets/img/gingivitis.JPG" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" width="80%" style="display: block; margin: auto;" />
 
 <span style="color:#CC79A7">...poor glycemic control predisposes to gum disease.</span>
 
