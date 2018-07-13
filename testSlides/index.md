@@ -51,7 +51,7 @@ Show links to POHJD github repository
 
 <br>
 
-<img src="assets/img/profile.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="80%" style="display: block; margin: auto;" />
+<img src="assets/img/profile.PNG" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="80%" style="display: block; margin: auto;" />
 
 
 --- .blue
@@ -167,7 +167,7 @@ _TAKE NOTE: the scales for the y-axis are different_
 
 <br>
 
-<img src="assets/img/periopredictor.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="80%" style="display: block; margin: auto;" />
+<img src="assets/img/periopredictor.PNG" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="80%" style="display: block; margin: auto;" />
 
 _Age was a significant predictor of periodontitis_
 
@@ -177,7 +177,7 @@ _Age was a significant predictor of periodontitis_
 
 <br>
 
-<img src="assets/img/cariespredictperio.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="60%" style="display: block; margin: auto;" />
+<img src="assets/img/cariespredictperio.PNG" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="60%" style="display: block; margin: auto;" />
 
 _Tooth decay was a significant predictor of periodontitis_
 
@@ -192,7 +192,7 @@ _Tooth decay was a significant predictor of periodontitis_
 
 <br>
 
-<img src="assets/img/perioprofile.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="80%" style="display: block; margin: auto;" />
+<img src="assets/img/perioprofile.PNG" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="80%" style="display: block; margin: auto;" />
 
 _A sub-group of the population tend to develop periodontitis early consistent with reports in literature_
 

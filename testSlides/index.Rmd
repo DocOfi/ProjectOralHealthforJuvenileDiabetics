@@ -54,7 +54,7 @@ Show links to POHJD github repository
 <br>
 
 ```{r, fig.retina=NULL, out.width='80%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("assets/img/profile.png")
+knitr::include_graphics("assets/img/profile.PNG")
 ```
 
 
@@ -181,7 +181,7 @@ _TAKE NOTE: the scales for the y-axis are different_
 <br>
 
 ```{r, fig.retina=NULL, out.width='80%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("assets/img/periopredictor.png")
+knitr::include_graphics("assets/img/periopredictor.PNG")
 ```
 
 _Age was a significant predictor of periodontitis_
@@ -193,7 +193,7 @@ _Age was a significant predictor of periodontitis_
 <br>
 
 ```{r, fig.retina=NULL, out.width='60%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("assets/img/cariespredictperio.png")
+knitr::include_graphics("assets/img/cariespredictperio.PNG")
 ```
 
 _Tooth decay was a significant predictor of periodontitis_
@@ -210,7 +210,7 @@ _Tooth decay was a significant predictor of periodontitis_
 <br>
 
 ```{r, fig.retina=NULL, out.width='80%', echo=FALSE, fig.align='center'}
-knitr::include_graphics("assets/img/perioprofile.png")
+knitr::include_graphics("assets/img/perioprofile.PNG")
 ```
 
 _A sub-group of the population tend to develop periodontitis early consistent with reports in literature_
