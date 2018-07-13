@@ -35,32 +35,75 @@ body {
 }
 
 /* putting a banner on  h2 header on all slide - maroon */
-
+#slide-25 hgroup > h2,
+#slide-24 hgroup > h2,
+#slide-23 hgroup > h2,
+#slide-22 hgroup > h2, 
 #slide-21 hgroup > h2,
 #slide-20 hgroup > h2,
 #slide-19 hgroup > h2,
-#slide-17 hgroup > h2 {
+#slide-12 hgroup > h2,
+#slide-11 hgroup > h2,
+#slide-10 hgroup > h2,
+#slide-9 hgroup > h2,
+#slide-8 hgroup > h2,
+#slide-7 hgroup > h2, 
+#slide-4 hgroup > h2,
+#slide-3 hgroup > h2,
+#slide-2 hgroup > h2,
+#slide-1 hgroup > h2 {
   font-family: "Crimson Text";
   text-align: justify;
   font-size: 45px;
   line-height: 1.2em;
-  color: #6A5ACD;
+  color: #c11825;
 }
 
-#slide-3 hgroup > h2 {
-  font-family: "Crimson Text";
-  text-align: justify;
-  font-size: 45px;
-  line-height: 1.2em;
-  color: #7FFFD4;
+#slide-5 hgroup > h2,
+#slide-13 hgroup > h2, 
+#slide-19 hgroup > h2 {
+  color: #FF33FF;
+  line-height: 56px;
+}
+
+article {
+  clear: left;
+}
+
+.tas {
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.tas figure {
+  width: 160px;
+  margin: 0 45px 25px 0;
+  float: left;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 7px rgba(0,0,0,.2);
+  padding: 7px;
+}
+
+.tas img {
+  width: 160px;
+  margin-bottom: 8px;
+}
+
+.tas figure:nth-child(odd) {
+  -webkit-transform: rotate(-4deg);
+}
+
+.tas figure:nth-child(even) {
+  -webkit-transform: rotate(4deg);
 }
 
 .multicol > article > div > p{
   font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  font-size: 60px;
+  font-size: 50px;
   color: blue;
   text-align: center;
-  line-height: 1.4
+  line-height: 1.2
 }
 
 .centeredtext {
@@ -86,3 +129,10 @@ body {
 .thank-you-slide > article > p{
 	color: #FFFFFF;
 }	
+
+.blue > article > ul{
+background-color:#e6f0ff; 
+border-radius: 5px; 
+padding: 20px;
+}
+

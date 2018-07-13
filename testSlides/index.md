@@ -31,7 +31,7 @@ knit        : slidify::knit2slides
 <p><center>Pressing <span style="color:blue">o</span> toggles overview mode</center></p>
 <p><center>Pressing <span style="color:blue">Esc</span> toggles off these goodies</center></p>
 
---- 
+--- .blue
 
 ## In the beginning... 
 
@@ -45,19 +45,93 @@ knit        : slidify::knit2slides
 
 Show links to POHJD github repository
 
---- bg:#7FFFD4
-
-## .
-
-<img src="assets/img/osh.png" title="Neglecting Oral Health leads to Poor Glycemic Control" alt="Neglecting Oral Health leads to Poor Glycemic Control" width="70%" style="display: block; margin: auto;" />
-
 --- 
 
 ## Participant's profile 
 
 <br>
 
-<img src="assets/img/profile.png" title="Less than half of the participants monitored their blood sugar at home at least once a day." alt="Less than half of the participants monitored their blood sugar at home at least once a day." width="80%" style="display: block; margin: auto;" />
+<img src="assets/img/profile.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="80%" style="display: block; margin: auto;" />
+
+
+--- .blue
+
+## By December of 2011... 
+
+> - POHJD was able to provide dental treatment to 100 children and youth with diabetes  
+
+> - 202 consultations and oral examinations, 114 pocket probing, and 431 x-ray examinations were performed
+
+> - 449 teeth were restored using amalgam, composite and glass ionomer restorations
+
+> - Only 19 Root Canal Treatments compared to 212 tooth extractions were performed
+
+> - 226 pit and fissure sealants and 53 topical fluoride applications
+
+> - 155 scaling and polishing (removal of tartar) and 28 root planings (treatment for periodontitis) were performed
+
+*** =pnotes
+
+Show links to POHJD github repository
+
+--- .segue 
+
+## What we found in  between ...
+
+<img src="assets/img/barrier.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" width="80%" style="display: block; margin: auto;" />
+
+---
+        
+
+<div class="tas">
+     <figure>
+           <img src="assets/img/xcaries.JPG" />
+           <figcaption>tooth decay</figcaption>
+     </figure>           
+</div>
+
+<div class="tas">
+     <figure>
+           <img src="assets/img/xmorecaries.jpg" />
+           <figcaption>more decay</figcaption>
+     </figure>           
+</div>
+<div class="tas">
+     <figure>
+           <img src="assets/img/xevenmorecaries.JPG" />
+           <figcaption>even more</figcaption>
+     </figure>           
+</div>
+<div class="tas">
+     <figure>
+           <img src="assets/img/missingteeth.jpg" />
+           <figcaption>missing teeth</figcaption>
+     </figure>           
+</div>
+<div class="tas">
+     <figure>
+           <img src="assets/img/swollengums.JPG" />
+           <figcaption>swollen gums</figcaption>
+     </figure>           
+</div>
+<div class="tas">
+     <figure>
+           <img src="assets/img/bleedinggums.JPG" />
+           <figcaption>bleeding gums</figcaption>
+     </figure>           
+</div>
+<div class="tas">
+     <figure>
+           <img src="assets/img/mobileteeth.jpg" />
+           <figcaption>mobile teeth</figcaption>
+     </figure>           
+</div>
+<div class="tas">
+     <figure>
+           <img src="assets/img/pus.JPG" />
+           <figcaption>pus</figcaption>
+     </figure>           
+</div>
 
 --- 
 
@@ -85,13 +159,17 @@ Show links to POHJD github repository
 
 <img src="assets/fig/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
 
+_TAKE NOTE: the scales for the y-axis are different_
+
 --- 
 
 ## Periodontitis and Age
 
 <br>
 
-<img src="assets/img/periopredictor.png" title="Age was a significant predictor of periodontitis" alt="Age was a significant predictor of periodontitis" width="80%" style="display: block; margin: auto;" />
+<img src="assets/img/periopredictor.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="80%" style="display: block; margin: auto;" />
+
+_Age was a significant predictor of periodontitis_
 
 --- 
 
@@ -99,9 +177,9 @@ Show links to POHJD github repository
 
 <br>
 
-<img src="assets/img/cariespredictperio.png" title="Tooth decay was a significant predictor of periopredictor" alt="Tooth decay was a significant predictor of periopredictor" width="60%" style="display: block; margin: auto;" />
+<img src="assets/img/cariespredictperio.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="60%" style="display: block; margin: auto;" />
 
-<br>
+_Tooth decay was a significant predictor of periodontitis_
 
 <div> 
   <img alt="graphic with four colored squares"
@@ -114,9 +192,11 @@ Show links to POHJD github repository
 
 <br>
 
-<img src="assets/img/perioprofile.png" title="A sub-group of the population tend to develop periodontitis early consistent with reports in literature" alt="A sub-group of the population tend to develop periodontitis early consistent with reports in literature" width="80%" style="display: block; margin: auto;" />
+<img src="assets/img/perioprofile.png" title="plot of chunk unnamed-chunk-8" alt="plot of chunk unnamed-chunk-8" width="80%" style="display: block; margin: auto;" />
 
---- 
+_A sub-group of the population tend to develop periodontitis early consistent with reports in literature_
+
+--- .blue
 
 ## Barriers to Access to Dental Care
 
@@ -131,6 +211,10 @@ Show links to POHJD github repository
  
  _A third of the patients also related a previous experience of being refused dental treatment by a dentist._
 
+--- .segue .bigger
+
+## Commonalities between <br> Diabetes and Oral Health
+
 --- .centeredtext bg:#7FFFD4
 
 ## Sugar intake largely determines severity of disease in oral health and diabetes.
@@ -139,11 +223,18 @@ Show links to POHJD github repository
 
 *** =left
 
+<br>
+
 <span style="color:#56B4E9">High sugar intake leads to high rates of tooth decay</span>
+
+
+<img src="assets/img/caries.jpg" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" width="80%" style="display: block; margin: auto;" />
 
 *** =right
 
-<p><br><br><br><p>
+<br>
+
+<img src="assets/img/meter.jpg" title="plot of chunk unnamed-chunk-10" alt="plot of chunk unnamed-chunk-10" width="80%" style="display: block; margin: auto;" />
 
 <span style="color:#CC79A7">High sugar intake leads to poor glycemic control</span>
 
@@ -152,13 +243,15 @@ Show links to POHJD github repository
 
 *** =left
 
-<span style="color:#56B4E9">Dental treatment is usually not covered by health insurance ...</span>
+<br><br>
+
+<span style="color:#56B4E9">Dental treatment is usually not covered by health insurance </span>
 
 *** =right
 
 <p><br><br><br><p>
 
-<span style="color:#CC79A7">... Blood sugar monitoring and medications are costly</span>
+<span style="color:#CC79A7">Blood sugar monitoring and medications are costly</span>
 
 --- &twocol .multicol bg:#98FB98
 
@@ -166,9 +259,13 @@ Show links to POHJD github repository
 
 <span style="color:#56B4E9">Poor oral health predisposes to poor glycemic control and... </span>
 
+<img src="assets/img/high468.jpg" title="plot of chunk unnamed-chunk-11" alt="plot of chunk unnamed-chunk-11" width="60%" style="display: block; margin: auto;" />
+
 *** =right
 
-<p><br><br><br><p>
+<br>
+
+<img src="assets/img/gingivitis.jpg" title="plot of chunk unnamed-chunk-12" alt="plot of chunk unnamed-chunk-12" width="80%" style="display: block; margin: auto;" />
 
 <span style="color:#CC79A7">...poor glycemic control predisposes to gum disease.</span>
 
@@ -177,17 +274,22 @@ Show links to POHJD github repository
 
 ## Success in improving oral health and blood sugar levels are largely dependent on the patient's knowledge and motivation.
 
---- 
+--- .segue .bigger
 
-## Oral Health = Systemic Health 
+## Conclusion
 
-<br><br>
+<img src="assets/img/osh.png" title="plot of chunk unnamed-chunk-13" alt="plot of chunk unnamed-chunk-13" width="50%" style="display: block; margin: auto;" />
 
-<img src="assets/img/osh.png" title="plot of chunk unnamed-chunk-9" alt="plot of chunk unnamed-chunk-9" width="40%" style="display: block; margin: auto;" />
+--- bg:url(assets/img/osh.png);background-size:cover 
 
+<div style="position: absolute; left: 400px; right: 100px; top:500px; z-index:10">
+    <p style="color:yellow; font-size: 28px; lineheight: 1.0">A common risk factor approach to improving oral and systemic health among patients with diabetes may offer a better solution</p>
+</div>
 
-<div><center><span style="color:blue">A common risk factor approach</span></center></div>
-<div><center><span style="color:blue">to improving oral and systemic health among patients</span></center></div> <div><center><span style="color:blue">with diabetes may offer a better solution</span></center></div>
+*** =pnotes
+
+A common risk factor approach to improving oral and systemic health among patients with diabetes may offer a better solution
+
 
 --- &carousel bg:#7FFFD4
 
@@ -205,12 +307,46 @@ World Diabetes Day - Focus on Mom 2014 at SLMC
 *** {img: "assets/img/slide1.JPG"}
 Educational Material on Oral Health Care for Diabetics
 
+*** {img: "assets/img/davao.jpg"}
+Advocating Oral Health - Diabetes Camp in Davao
+
+*** {img: "assets/img/cope.jpg"}
+Advocating Oral Health - Camp Cope in Tagaytay
+
+--- .blue
+
+## Insights learned from POHJD
+
+> - There is a tendency for type 1 diabetic patients to neglect their oral health due to financial constraints and lack of motivation and/or education to seek dental treatment. POHJD participants have been known to underdose their insulin or use expired insulin in order to cut cost of medication.
+
+> - Despite the presence of enormous amounts of dental pathology in their mouths and the offer of free dental treatment, there is a poor attendance among patients at POHJD. We estimate that POHJD was only able to treat 10-15 % of the type 1 diabetic population
+in Manila.
+
+> - Patient participation grew when insulin, insulin syringes, and blood glucose monitoring strips were given free to the patients.
+
+--- .blue
+
+## Insights learned from POHJD
+
+> - Patient compliance to doctors prescribed diet improved while the patients were undergoing dental treatment. Basic information that diabetic patients should know was reinforced during dental visits. Blood sugar testing before dental treatment helped patients to appreciate the importance of monitoring their blood sugar at home and during dental visits.
+
+> - Effects of sugar on other parts of the bodies like the eyes and kidneys, became easier for diabetic children and youth to understand when they see the effects of sugar on their teeth and the pain and problems that it brings. The unpleasant experience of tooth extraction translates into increased motivation to control blood sugar to avoid the effects of high blood sugar on the eyes and other organs.
+
+> - The lack of a systematic recall program failed to sustain the gains acquired and allowed new decay to reappear in other teeth. Preventive programs was not given much stress at the start of theproject as efforts were concentrated in treatment of decayed teeth.
+
+--- .blue
+
+## Insights learned from POHJD
+
+> - The lack of information materials or brochures on oral health resulted in poor retention of concepts learned while on the dental chair. Educational materials on oral health became available only on 2014 after a grant from Engineer David M Consunji.
+
+> - Unless patients are encouraged to attend school, many children with diabetes will never become self-sufficient to address the demands of their disease and remain dependent on family for assistance or hand-outs. Many content themselves without any actual income and serve the members of the family by doing household chores.
+
 --- 
 
 ## Links 
 
-
-![](logopohjd.png)
+<a class='example' href="http://docofi.github.io/ProjectOralHealthforJuvenileDiabetics/">click here</a>
 
 [Project Oral Health for juvenile Diabetics Website](https://www.projectoralhealth.org)
 
@@ -219,6 +355,8 @@ Educational Material on Oral Health Care for Diabetics
 [Project Oral Health for juvenile Diabetics Comics](http://www.slideshare.net/pinoydental/dental-comics-by-dr-ed-ofilada)
 
 --- bg:#7FFFD4
+
+<a class='definition' href="http://docofi.github.io/ProjectOralHealthforJuvenileDiabetics/">click here</a>
 
 ## Publications
 
